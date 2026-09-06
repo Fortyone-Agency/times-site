@@ -291,7 +291,7 @@ h2 {
 .screen-frame {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 1.19;
+  aspect-ratio: 1.6;
   margin: 0;
   border: 1px solid rgba(16, 35, 63, 0.12);
   border-radius: 8px;
@@ -302,8 +302,7 @@ h2 {
 .screen-frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: 50% 27%;
+  object-fit: contain;
 }
 .local-note {
   position: absolute;
@@ -435,8 +434,13 @@ h2 {
 }
 .product-shot img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1.54;
   object-fit: cover;
+}
+figure.product-shot-menubar img {
+  aspect-ratio: 1.6;
+  object-fit: contain;
 }
 kbd {
   display: inline-block;
@@ -751,9 +755,6 @@ html[lang="ja"] h1 {
     width: 100%;
     justify-content: space-between;
     gap: 7px;
-  }
-  .screen-frame {
-    aspect-ratio: 2.2;
   }
   .local-note {
     display: none;
