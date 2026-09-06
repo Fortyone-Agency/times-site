@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jsosa.net/times/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jsosa.net/times/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jsosa.net/times/ja/" />
+  </url>
+  <url>
+    <loc>https://jsosa.net/times/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jsosa.net/times/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jsosa.net/times/ja/" />
+  </url>
+  <url>
+    <loc>https://jsosa.net/times/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jsosa.net/times/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jsosa.net/times/ja/privacy/" />
+  </url>
+  <url>
+    <loc>https://jsosa.net/times/ja/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jsosa.net/times/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jsosa.net/times/ja/privacy/" />
+  </url>
+</urlset>
