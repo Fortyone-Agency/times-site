@@ -4,10 +4,10 @@ Times is a native macOS menu-bar world clock and date converter from Fortyone Ag
 
 ## Key pages
 
-- [English product page](https://jsosa.net/times/): Product overview, features, privacy summary, and Mac App Store download.
-- [Japanese product page](https://jsosa.net/times/ja/): Japanese product overview and download.
-- [Privacy policy](https://jsosa.net/times/privacy/): How Times handles selected text, permissions, local preferences, and purchases.
-- [Japanese privacy policy](https://jsosa.net/times/ja/privacy/): Japanese version of the privacy policy.
+- [English product page](https://times.fortyoneagency.com/): Product overview, features, privacy summary, and Mac App Store download.
+- [Japanese product page](https://times.fortyoneagency.com/ja/): Japanese product overview and download.
+- [Privacy policy](https://times.fortyoneagency.com/privacy/): How Times handles selected text, permissions, local preferences, and purchases.
+- [Japanese privacy policy](https://times.fortyoneagency.com/ja/privacy/): Japanese version of the privacy policy.
 - [Source code](https://github.com/Fortyone-Agency/times): Times for macOS source repository.
 
 Times does not collect personal data, analytics, or selected text. Date conversion happens locally on the user's Mac.

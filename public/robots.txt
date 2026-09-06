@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jsosa.net/times/sitemap.xml
+Sitemap: https://times.fortyoneagency.com/sitemap.xml

@@ -25,3 +25,7 @@ npm run check
 ```
 
 The static site is written to `dist/`. Asset and internal page paths are relative, so the folder can be hosted at a domain root or a nested path such as `/times/`.
+
+## GitHub Pages
+
+The deployment workflow in `.github/workflows/deploy-pages.yml` builds and publishes `dist/` whenever `main` is updated. In the repository's **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**. Publishing `main / (root)` serves the uncompiled Vite source and will leave the site unstyled.
