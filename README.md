@@ -1,6 +1,6 @@
 # Times Website
 
-The multilingual product website for [Times](https://apps.apple.com/jp/app/times-world-clock-timezones/id1048770312?l=en-US&mt=12), a menu-bar world clock and date converter for macOS.
+The multilingual product website for [Times](https://apps.apple.com/us/app/times-world-clock-timezones/id1048770312?l=en-US&mt=12), a menu-bar world clock and date converter for macOS.
 
 ## Pages
 
