@@ -1,12 +1,18 @@
 # Times Website
 
-The bilingual product website for [Times](https://apps.apple.com/jp/app/times-world-clock-timezones/id1048770312?l=en-US&mt=12), a menu-bar world clock and date converter for macOS.
+The multilingual product website for [Times](https://apps.apple.com/jp/app/times-world-clock-timezones/id1048770312?l=en-US&mt=12), a menu-bar world clock and date converter for macOS.
 
 ## Pages
 
 - `/` — English product page
+- `/de/` — German product page
+- `/es/` — Spanish product page
+- `/fr/` — French product page
 - `/ja/` — Japanese product page
 - `/privacy/` — English privacy policy
+- `/de/privacy/` — German privacy policy
+- `/es/privacy/` — Spanish privacy policy
+- `/fr/privacy/` — French privacy policy
 - `/ja/privacy/` — Japanese privacy policy
 
 ## Development

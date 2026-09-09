@@ -3,7 +3,7 @@ import "./site.css";
 const clockElements = document.querySelectorAll<HTMLElement>("[data-clock]");
 
 const updateClocks = () => {
-  const locale = document.documentElement.lang === "ja" ? "ja-JP" : "en-GB";
+  const locale = document.documentElement.lang || "en";
   const now = new Date();
 
   clockElements.forEach((clock) => {

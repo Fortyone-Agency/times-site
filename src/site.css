@@ -108,6 +108,54 @@ a {
   align-items: center;
   gap: 28px;
 }
+.language-menu {
+  position: relative;
+}
+.language-menu summary {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 800;
+  list-style: none;
+}
+.language-menu summary::-webkit-details-marker {
+  display: none;
+}
+.language-menu summary::after {
+  content: "↓";
+  font-size: 0.7rem;
+}
+.language-menu[open] summary::after {
+  content: "↑";
+}
+.language-options {
+  position: absolute;
+  top: calc(100% + 14px);
+  right: 0;
+  display: grid;
+  width: 160px;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--white);
+  box-shadow: 0 14px 36px rgba(16, 35, 63, 0.16);
+}
+.language-options a {
+  padding: 9px 10px;
+  border-radius: 4px;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.language-options a:hover,
+.language-options a[aria-current="page"] {
+  background: #e9f4ff;
+  color: var(--blue-dark);
+}
 .site-header nav > a:not(.button),
 .site-footer a {
   color: var(--ink-soft);
@@ -614,6 +662,14 @@ html[lang="ja"] .final-cta > p:not(.section-kicker) {
 html[lang="ja"] h1 {
   line-height: 1.02;
 }
+html:is([lang="de"], [lang="es"], [lang="fr"]) .hero h1 {
+  font-size: clamp(3.2rem, 4.5vw, 4.8rem);
+  line-height: 0.94;
+}
+html:is([lang="de"], [lang="es"], [lang="fr"]) .policy-header h1 {
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  overflow-wrap: anywhere;
+}
 
 @media (max-width: 900px) {
   .hero,
@@ -694,6 +750,11 @@ html[lang="ja"] h1 {
   .site-header nav {
     gap: 12px;
   }
+  .language-options {
+    position: fixed;
+    top: 72px;
+    right: 14px;
+  }
   .nav-detail {
     display: none;
   }
@@ -712,6 +773,9 @@ html[lang="ja"] h1 {
   }
   h1 {
     font-size: clamp(3.4rem, 18vw, 5rem);
+  }
+  html:is([lang="de"], [lang="es"], [lang="fr"]) .hero h1 {
+    font-size: clamp(2.75rem, 13.5vw, 3.6rem);
   }
   h2 {
     font-size: clamp(2.35rem, 12vw, 3.3rem);
